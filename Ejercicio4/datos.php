@@ -65,11 +65,15 @@
                       //Promedio numeros impares
                       echo '<label class="form-label">Valor promedio de los números impares en la lista:</label>';
                       $impares_count = count($imapres);
+                      if($impares_count > 0){
                       $sumImp = 0;
                       foreach($imapres as $imapres){
                         $sumImp += $imapres;
                       }
                       echo '<label class="form-label">'.round($sumImp / $impares_count,2).'</label><br>';
+                    }else{
+                      echo '<div class="alert alert-danger" role="alert">No se ingresaron números impares</div>';
+                    }
                       //Numeros negativos ordenados descendentes
                       echo '<label class="form-label">Números negtivos ordenados de forma descendente:</label>';
                       rsort($negativos);
