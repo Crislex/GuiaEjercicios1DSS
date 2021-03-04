@@ -58,7 +58,9 @@
                       }
                       //Porcentaje de ceros en la lista
                       echo '<label class="form-label">Porcentaje de ceros ingresado en la lista:</label>';
+                      if($array_count > 0){
                       $porcentaje = 100 / $array_count;
+                      }else{$porcentaje = 0;}
                       echo '<label class="form-label">'.$porcentaje * $ceros.' %</label><br>';
                       //Promedio numeros impares
                       echo '<label class="form-label">Valor promedio de los números impares en la lista:</label>';
