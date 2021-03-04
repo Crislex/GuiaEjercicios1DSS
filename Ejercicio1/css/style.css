@@ -1,0 +1,42 @@
+html{
+	font-size: 20px;
+}
+
+body{
+	color:#fcfcfc;
+	background-color:#355664;
+	font-family: Arial, Helvetica, San-serif;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	font-size: 0.7rem;
+	margin-top: 20px;
+	padding: 5px;
+	text-align: center;
+}
+
+div.wrapper{
+	margin: 0 auto;
+	width: 80%;
+}
+
+nav span a {
+	background-color: #9E9E9E;
+	border-right: 1px solid;
+	color: black;
+	float: left;
+	padding: 10px;
+	text-decoration: none;
+}
+table {
+   width: 100%;
+   border: 1px solid #000;
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+}
